@@ -1,7 +1,7 @@
 pipeline {
     agent {
     	docker{
-    		image 'mattpaletta/xcbuild:latest'
+    		image 'brikis98/docker-osx-dev'
     	}
     }
     stages {
