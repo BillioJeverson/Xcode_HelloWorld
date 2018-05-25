@@ -1,7 +1,7 @@
 pipeline {
     agent {
     	docker{
-    		image 'jkingyens/docker4xcode'
+    		image 'mattpaletta/xcbuild:latest'
     	}
     }
     stages {
