@@ -1,6 +1,6 @@
 node('iOS Node') {
 	
 	stage('Build'){
-		sh 'xcodebuild -scheme "HelloWorld" -configuration "Debug"'
+		sh 'xcodebuild -scheme "HelloWorld"'
 	}
 }
