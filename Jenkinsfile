@@ -1,9 +1,5 @@
 pipeline {
-    agent {
-    	docker{
-    		image 'brikis98/docker-osx-dev'
-    	}
-    }
+    agent any
     stages {
         stage('Build') {
         	steps {
