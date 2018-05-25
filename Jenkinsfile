@@ -3,6 +3,7 @@ pipeline {
     	docker{
     		image 'nginx'
     	}
+    }
     stages {
         stage('Build') {
         	steps {
@@ -10,5 +11,4 @@ pipeline {
         	}
         }
     }
-
 }
