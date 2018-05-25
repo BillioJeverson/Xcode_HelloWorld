@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') {
         	steps {
-        		sh 'xcodebuild -scheme "HelloWorld" -configuration "Debug"
+        		sh 'xcodebuild -scheme "HelloWorld" -configuration "Debug"''
         	}
         }
     }
