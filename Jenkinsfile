@@ -1,7 +1,7 @@
 pipeline {
     agent {
     	docker{
-    		image 'pragneshpatel/xcode'
+    		image 'zhaoseagull/xcode'
     	}
     }
     stages {
