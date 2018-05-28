@@ -1,5 +1,5 @@
 pipeline {
-    agent ('iOS')
+    agent { label 'iOS'}
     stages {
         stage('Build') {
         	steps {
