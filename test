@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    GIT = credentials('github')
+    GIT = credentials('BillioJeverson')
   }
   stages {
     stage('Build ObjC') {
