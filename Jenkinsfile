@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent ('iOS')
     stages {
         stage('Build') {
         	steps {
